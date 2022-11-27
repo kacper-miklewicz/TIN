@@ -1,0 +1,15 @@
+p {
+  width: 70%;
+  height: 500px;
+  overflow-y: scroll;
+  margin: 100px auto;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(72, 18, 18);
+  border-radius: 12px;
+}

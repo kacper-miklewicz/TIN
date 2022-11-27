@@ -1,0 +1,7 @@
+::selection {
+  color: green;
+}
+
+form:has(:focus) {
+  background-color: green;
+}
